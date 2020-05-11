@@ -10,7 +10,7 @@ A subscription returns a `Cancellable` object
 
 Correct memory management using `Cancellable` makes sure you're not retaining any references.
  
- 这个例子用来帮助理解Cancellable协议的用途。通过OpenCombine这个库，可以大致了解到 Cancellable 的对象在deinit时会调用cancel方法来解除对其的observe
+ 这个例子用来帮助理解 Cancellable 协议的用途。通过OpenCombine这个库，可以大致了解到 Cancellable 的对象在deinit时会调用cancel方法来解除对其的observe
 */
 
 class MyClass {
