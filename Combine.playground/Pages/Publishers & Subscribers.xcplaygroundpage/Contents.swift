@@ -18,6 +18,9 @@ import Combine
 let publisher1 = Just(42)
 
 // You need to _subscribe_ to receive values (here using a sink with a closure)
+/*:
+ `sink`：该方法的命名，我认为取自语义“基站节点”，参考 https://baike.baidu.com/item/sink/19920236?fr=aladdin 中的"Sink节点收到数据后..."，所以在这里就是：收到value之后执行闭包。
+ */
 let subscription1 = publisher1.sink { value in
 	print("Received value from publisher1: \(value)")
 }
