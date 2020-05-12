@@ -20,6 +20,9 @@
  - RxSwift由ReactiveX社区维护
  - Combine由apple维护
  - [这是两者的对比](https://medium.com/gett-engineering/rxswift-to-apples-combine-cheat-sheet-e9ce32b14c5b)
+
+ # 一些术语
+ - upstream：Observable数据，称为upsteam，
  */
 import Combine
 
